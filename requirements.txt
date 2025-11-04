@@ -1,0 +1,44 @@
+# --- Core Framework ---
+fastapi==0.119.0
+uvicorn==0.37.0
+
+# --- AWS & Bedrock ---
+boto3==1.40.53
+botocore==1.40.53
+amazon-bedrock==0.0.5
+
+# --- Database ---
+asyncpg==0.30.0
+SQLAlchemy==2.0.43
+psycopg2==2.9.10
+
+# --- Vector DB / Embeddings ---
+chromadb==1.1.1
+faiss-cpu==1.12.0
+sentence-transformers==5.1.0
+tiktoken==0.12.0
+
+# --- LangChain + Agents ---
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-core==0.3.79
+langsmith==0.4.37
+
+# --- PDF Parsing ---
+PyPDF2==3.0.1
+pdfplumber==0.11.7
+
+# --- Utilities ---
+pydantic==2.12.2
+python-dotenv==1.1.1
+requests==2.32.5
+rich==14.1.0
+loguru==0.7.3
+orjson==3.11.3
+
+# --- Optional (for embeddings / token handling) ---
+numpy==1.26.4
+scikit-learn==1.7.1
+
+# --- Development / ASGI ---
+watchfiles==1.1.0
